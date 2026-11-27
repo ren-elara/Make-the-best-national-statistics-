@@ -1,0 +1,6 @@
+[
+  { "file": "1-overview.jpg", "route": "#/overview", "width": 1280, "height": 800 },
+  { "file": "2-explorer.jpg", "route": "#/explore/inflation", "width": 1280, "height": 800 },
+  { "file": "3-regions.jpg", "route": "#/regions", "width": 1280, "height": 800 },
+  { "file": "4-phone.jpg", "route": "#/overview", "width": 390, "height": 844 }
+]

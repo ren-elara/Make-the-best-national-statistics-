@@ -1,0 +1,17 @@
+{
+  "name": "fieldnote-australia",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "An independent, fully offline atlas of Australian statistics",
+  "engines": { "node": ">=22.18.0" },
+  "scripts": {
+    "start": "node --experimental-strip-types serve.ts",
+    "test": "node --test tests/data.test.mjs",
+    "test:browser": "node --experimental-strip-types tests/browser.mjs",
+    "capture": "node --experimental-strip-types tests/browser.mjs --capture",
+    "verify": "node --experimental-strip-types tests/verify.mjs",
+    "build": "node --experimental-strip-types main.ts"
+  },
+  "license": "MIT"
+}
